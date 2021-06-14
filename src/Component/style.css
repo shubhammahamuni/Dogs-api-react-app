@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.card_{
+    
+    width: 120px;
+    height: 120px;
+    background-color: lightcoral;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.img-div{
+    height: 100px;
+    width: 120px;
+    background-color: lightskyblue;
+}
+
+
+.imgs-box{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+
+
+}
+.card_modal{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.modal-outer-box{
+
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0ch;
+    left: 0ch;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+    
+
+}
+.modal-box{
+ height: autopx;
+ width: 500px;
+ background-color: aliceblue; 
+ align-self: center;
+ justify-self: center;  
+
+}
+.header{
+    height: auto;
+    width: auto;
+    background-color:brown;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    
+}
+div.header > div{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(145, 145, 145);
+    align-self: center;
+    padding: 20px;
+    
+}
+
+.closebutton{
+        height: 30px;
+        width: 30px;
+        background-color: white;
+        border: none;
+
+    
+}
+.custom-search
+{
+    position: relative;
+    top: 50%;
+    left: 35%;
+}
+
+
+
+
+.display-cards{
+    padding: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.drop-box-outer-div{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+  
+
+}
+div.drop-box-outer-div  select,input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    background-color:lightgray;
+    counter-increment: none;
+    padding-left: 10px;
+    
+}
+.Get-img-btn{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+}
+div.Get-img-btn button{
+
+    background-color: green;
+    padding: 5px 20px;
+    color: white;
+    border: none;
+    height: 30px;
+
+}
+
+.actual-image{
+    width: 100px;
+    height: 100px;
+
+}
+.display-image-gallary{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+}
