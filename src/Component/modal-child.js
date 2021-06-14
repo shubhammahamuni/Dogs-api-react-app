@@ -1,21 +1,21 @@
 import React from 'react';
 import "./style.css";
 
-function Modal_child({bread}) {
+function Modal_child({ bread }) {
     return (
-        
-          <div className="card_">  
-            
+
+        <div className="card_">
+
             <div className="img-div">
-                <img  />
+                <img />
             </div>
-           
+
             <p>
-             {bread}
+                {bread}
             </p>
 
-        </div>   
-    
+        </div>
+
     )
 }
 
